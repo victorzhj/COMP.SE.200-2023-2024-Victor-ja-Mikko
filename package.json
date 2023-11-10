@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "This is a project template for students participating in Software Testing course\r at Tampere University.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "chai": "^4.3.10",
     "coveralls-next": "^4.2.0",
     "mocha": "^10.2.0"
   },

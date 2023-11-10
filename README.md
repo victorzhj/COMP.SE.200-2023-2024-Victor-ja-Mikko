@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/victorzhj/COMP.SE.200-2023-2024-Victor-ja-Mikko/badge.svg)](https://coveralls.io/github/victorzhj/COMP.SE.200-2023-2024-Victor-ja-Mikko)
+
 # Student template
 
 ## Purpose of this repository

@@ -16,7 +16,7 @@ jobs:
 
       - run: npm ci
       - run: npm test
-      - run: npm run test-coverage
+      - run: npx c8 node src/*.js
 
       - name: Coveralls
         uses: coverallsapp/github-action@v2

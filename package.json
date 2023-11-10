@@ -1,7 +1,7 @@
 {
   "name": "software-testing-assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a project template for students participating in Software Testing course\r at Tampere University.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,6 +9,8 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": []
 }

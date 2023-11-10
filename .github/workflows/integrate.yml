@@ -1,6 +1,6 @@
 on: ["push", "pull_request"]
-github-token: ${{ secrets.GITHUB_TOKEN }}
-name: Test Coveralls
+
+name: tests and test coverage
 
 jobs:
   build:
@@ -14,10 +14,8 @@ jobs:
         with:
           node-version: 16.x
 
-      - name: npm install, make test-coverage
-        run: |
-          npm install
-          make test-coverage
+      - run: npm ci
+      - run: npm test
 
       - name: Coveralls
         uses: coverallsapp/github-action@v2

@@ -16,8 +16,10 @@ jobs:
 
       - run: npm ci
       - run: npm test
+      - run: npm run test-coverage
 
       - name: Coveralls
         uses: coverallsapp/github-action@v2
         with:
-          files: coverage/*
+          files: coverage/lcov.info
+          github-token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,6 +1,6 @@
 on: ["push", "pull_request"]
 
-name: Test Coveralls
+name: tests and test coverage
 
 jobs:
   build:
@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: 16.x
 
-      - name: npm install
-        run: |
-          npm install
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
 
       - name: Coveralls
         uses: coverallsapp/github-action@v2

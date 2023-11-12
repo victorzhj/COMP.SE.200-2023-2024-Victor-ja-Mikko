@@ -1,4 +1,3 @@
 {
-    "reporter": "lcov",
-    "exclude" : "./src/.internal/*"
+    "reporter": "lcov"
 }

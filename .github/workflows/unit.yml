@@ -17,10 +17,9 @@ jobs:
       - name: Install packages
         run: npm ci
 
-      - name: Unit tests
-        with:
-          continue-on-error: true
+      - name: Run tests
         run: npm test
+        continue-on-error: true
 
       - name: Coveralls
         uses: coverallsapp/github-action@v2

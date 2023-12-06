@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/victorzhj/COMP.SE.200-2023-2024-Victor-ja-Mikko/badge.svg)](https://coveralls.io/github/victorzhj/COMP.SE.200-2023-2024-Victor-ja-Mikko)
+[![Coverage Status](https://coveralls.io/repos/github/victorzhj/COMP.SE.200-2023-2024-Victor-ja-Mikko/badge.svg?branch=main)](https://coveralls.io/github/victorzhj/COMP.SE.200-2023-2024-Victor-ja-Mikko?branch=main)
 
 # Student template
 

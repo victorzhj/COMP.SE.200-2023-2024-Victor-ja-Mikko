@@ -18,9 +18,8 @@ jobs:
         run: npm ci
 
       - name: Run tests
-        with:
-          continue-on-error: true
         run: npm test
+        continue-on-error: true
 
       - name: Coveralls
         uses: coverallsapp/github-action@v2
